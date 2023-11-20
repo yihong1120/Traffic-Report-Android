@@ -26,7 +26,7 @@ Traffic-Report-Android is a Kotlin-developed Android application, designed to in
 We welcome your contributions! Please refer to our contribution guidelines for detailed instructions on how to participate.
 
 ## License
-This project is licensed under [appropriate license] - see the LICENSE file for details.
+This project is licensed under [AGPL-3.0 license](./license) - see the LICENSE file for details.
 
 ## Acknowledgements
 - Thanks to the Traffic-Violation-Report-System team for their foundational server work.
