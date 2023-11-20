@@ -7,7 +7,7 @@ Traffic-Report-Android is a Kotlin-developed Android application, designed to in
 - **Mobile-Focused Reporting**: Report traffic violations easily through your Android device.
 - **Live Updates**: Receive immediate updates on law enforcement responses.
 - **Community Involvement**: Engage with a community of active citizens, sharing experiences and raising awareness.
-- **Precise Location Tagging**: Utilize GPS and Google Maps for accurate location reporting of incidents.
+- **Precise Location Tagging**: Utilise GPS and Google Maps for accurate location reporting of incidents.
 - **Integrated with Existing Server**: Leverages the robust backend of Traffic-Violation-Report-System.
 - **Intuitive User Interface**: A user-friendly design specifically for Android users.
 
@@ -20,7 +20,7 @@ Traffic-Report-Android is a Kotlin-developed Android application, designed to in
 2. **Advanced Image Recognition**: Implementation of YOLOv8 for effective license plate recognition.
 3. **OCR Capabilities**: Automatic extraction of data from images for violation parameters.
 4. **Secure Cloud Database**: Store and manage data in a cloud-based SQL database.
-5. **Interactive Mapping**: Utilize Google Maps API for a visual representation of traffic incidents.
+5. **Interactive Mapping**: Utilise Google Maps API for a visual representation of traffic incidents.
 
 ## Contributing
 We welcome your contributions! Please refer to our contribution guidelines for detailed instructions on how to participate.
