@@ -1,9 +1,12 @@
 {
-    "name": "Kotlin in GitHub Codespace",
-    "image": "gcr.io/k8s-minikube/kicbase:v0.0.10",
-    "postCreateCommand": "curl -s https://get.sdkman.io | bash && source /root/.bashrc && sdk install kotlin",
-    "remoteEnv": {
-      "sdkman_auto_answer": "true",
-      "sdkman_auto_selfupdate": "true"
-    }
+  "name": "Kotlin in GitHub Codespace",
+  "image": "mcr.microsoft.com/vscode/devcontainers/java:11",
+  "postCreateCommand": [
+      "bash", "-c",
+      "curl -s https://get.sdkman.io | bash && echo sdkman_auto_answer=true > ~/.sdkman/etc/config && source ~/.sdkman/bin/sdkman-init.sh && sdk install kotlin"
+  ],
+  "postAttachCommand": [
+      "bash", "-c",
+      "source ~/.sdkman/bin/sdkman-init.sh"
+  ]
 }
