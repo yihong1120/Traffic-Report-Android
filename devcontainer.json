@@ -1,0 +1,9 @@
+{
+    "name": "Kotlin in GitHub Codespace",
+    "image": "gcr.io/k8s-minikube/kicbase:v0.0.10",
+    "postCreateCommand": "curl -s https://get.sdkman.io | bash && source /root/.bashrc && sdk install kotlin",
+    "remoteEnv": {
+      "sdkman_auto_answer": "true",
+      "sdkman_auto_selfupdate": "true"
+    }
+}
